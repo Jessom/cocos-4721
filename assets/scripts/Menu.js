@@ -6,11 +6,11 @@ cc.Class({
     },
 
     onPlayBtn0() {
-        this.director.loadScene('RunGame')
+        cc.director.loadScene('RunGame')
     },
 
     onPlayBtn1() {
-        this.director.loadScene('JumpGame')
+        cc.director.loadScene('JumpGame')
     },
 
     // LIFE-CYCLE CALLBACKS:
